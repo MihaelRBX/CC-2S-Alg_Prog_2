@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  float cateto1, cateto2, hipotenusa;
+  printf("Informe o valor do primeiro cateto: ");
+  scanf("%f", &cateto1);
+  printf("Informe o valor do segundo cateto:  ");
+  scanf("%f", &cateto2);
+
+  hipotenusa = sqrt((cateto1 * cateto1) + (cateto2 * cateto2));
+
+  printf("Um triângulo retângulo com lados %.2f e %.2f tem uma hipotenusa igual a %.2f", cateto1, cateto2, hipotenusa);
+
+  return 0;
+  
+}

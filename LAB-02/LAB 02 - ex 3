@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+  
+
+  float tempcelsius, tempfahrenheit;
+
+  printf("Informe a temperatura em Celsius a ser convertida: ");
+  scanf("%f", &tempcelsius);
+
+  tempfahrenheit = (tempcelsius * 9/5) + 32;
+
+  printf("Uma temperatura de %.2f graus Celsius equivale a %.2f graus fahrenheit.", tempcelsius, tempfahrenheit);
+
+  return 0;
+  
+}
